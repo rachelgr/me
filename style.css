@@ -1,0 +1,124 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 98%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #3D4447;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+
+.wrapper {
+  
+  display: flex;
+  flex-direction: row;
+/*  height: 100%;*/
+  width: 100%;
+}
+
+
+.profile-picture {
+  width: auto;
+  height: 85%;
+  width: auto\9; /* ie8 */
+
+  position: fixed;
+  bottom: 0px;
+  left: 8%;
+
+
+
+}
+
+.left, .right {
+  background-color: #3D4447;
+  
+  margin: 5px;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  /*font-style: bold;*/
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #A7A7A7;
+}
+
+a.one:link {
+  text-decoration: none;
+  color: white;
+}
+
+a.one:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a.one:hover {
+  text-decoration: none;
+  color: #2FB9F1;
+}
+
+a.one:active {
+  text-decoration: none;
+  color: white;
+}
+
+a.two:link {
+  text-decoration: none;
+  color: #A7A7A7;
+}
+
+a.two:visited {
+  text-decoration: none;
+  color: #A7A7A7;
+}
+
+a.two:hover {
+  text-decoration: none;
+  color: #2FB9F1;
+}
+
+a.two:active {
+  text-decoration: none;
+  color: #A7A7A7;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #A7A7A7;
+  text-align: right;
+}
+
+.temp {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: white;
+  justify-content: center;
+
+}
