@@ -1,0 +1,74 @@
+html, body {
+  align-items: left;
+  justify-content: left;
+  height: 100%;
+  width: 95%;
+  margin: 20px;
+  padding: 0px;
+  background-color: #3D4447;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.headphones {
+  margin: 0px;
+
+}
+
+#maintitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  /*font-style: bold;*/
+  color: white;
+
+  font-size: 32px; 
+}
+
+#subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  /*font-style: bold;*/
+  color: white;
+  font-size: 12px;  
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  /*font-style: bold;*/
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #A7A7A7;
+}
+
+a.one:link {
+  text-decoration: none;
+  color: white;
+}
+
+a.one:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a.one:hover {
+  text-decoration: none;
+  color: #2FB9F1;
+}
+
+a.one:active {
+  text-decoration: none;
+  color: white;
+}
